@@ -1,0 +1,23 @@
+{
+  "name": "wootstrap",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woot-strap/wootstrap.git"
+  },
+  "author": "Adam Szaruga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/woot-strap/wootstrap/issues"
+  },
+  "homepage": "https://github.com/woot-strap/wootstrap#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
