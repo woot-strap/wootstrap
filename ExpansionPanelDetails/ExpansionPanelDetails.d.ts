@@ -14,8 +14,8 @@ export type ExpansionPanelDetailsClassKey = 'root';
 /**
  * ⚠️ The ExpansionPanelDetails component was renamed to AccordionDetails to use a more common naming convention.
  *
- * You should use `import { AccordionDetails } from '@material-ui/core'`
- * or `import AccordionDetails from '@material-ui/core/AccordionDetails'`.
+ * You should use `import { AccordionDetails } from '@wootstrap/core'`
+ * or `import AccordionDetails from '@wootstrap/core/AccordionDetails'`.
  * API:
  *
  * - [ExpansionPanelDetails API](https://material-ui.com/api/expansion-panel-details/)

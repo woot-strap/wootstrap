@@ -18,8 +18,8 @@ export type ExpansionPanelActionsClassKey = 'root' | 'spacing';
 /**
  * ⚠️ The ExpansionPanelActions component was renamed to AccordionActions to use a more common naming convention.
  *
- * You should use `import { AccordionActions } from '@material-ui/core'`
- * or `import AccordionActions from '@material-ui/core/AccordionActions'`.
+ * You should use `import { AccordionActions } from '@wootstrap/core'`
+ * or `import AccordionActions from '@wootstrap/core/AccordionActions'`.
  * API:
  *
  * - [ExpansionPanelActions API](https://material-ui.com/api/expansion-panel-actions/)

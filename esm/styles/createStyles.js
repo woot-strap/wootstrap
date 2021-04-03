@@ -5,7 +5,7 @@ export default function createStyles(styles) {
   // warning(
   //   warnOnce,
   //   [
-  //     'Material-UI: createStyles from @material-ui/core/styles is deprecated.',
+  //     'Material-UI: createStyles from @wootstrap/core/styles is deprecated.',
   //     'Please use @material-ui/styles/createStyles',
   //   ].join('\n'),
   // );

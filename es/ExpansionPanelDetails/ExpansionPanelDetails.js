@@ -15,15 +15,15 @@ let warnedOnce = false;
 /**
  * ⚠️ The ExpansionPanelDetails component was renamed to AccordionDetails to use a more common naming convention.
  *
- * You should use `import { AccordionDetails } from '@material-ui/core'`
- * or `import AccordionDetails from '@material-ui/core/AccordionDetails'`.
+ * You should use `import { AccordionDetails } from '@wootstrap/core'`
+ * or `import AccordionDetails from '@wootstrap/core/AccordionDetails'`.
  */
 
 const ExpansionPanelDetails = /*#__PURE__*/React.forwardRef(function ExpansionPanelDetails(props, ref) {
   if (process.env.NODE_ENV !== 'production') {
     if (!warnedOnce) {
       warnedOnce = true;
-      console.error(['Material-UI: the ExpansionPanelDetails component was renamed to AccordionDetails to use a more common naming convention.', '', "You should use `import { AccordionDetails } from '@material-ui/core'`", "or `import AccordionDetails from '@material-ui/core/AccordionActions'`"].join('\n'));
+      console.error(['Material-UI: the ExpansionPanelDetails component was renamed to AccordionDetails to use a more common naming convention.', '', "You should use `import { AccordionDetails } from '@wootstrap/core'`", "or `import AccordionDetails from '@wootstrap/core/AccordionActions'`"].join('\n'));
     }
   }
 

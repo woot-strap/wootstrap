@@ -2235,7 +2235,7 @@
       }
 
       if (typeof color.main !== 'string') {
-        throw new Error( "Material-UI: The color provided to augmentColor(color) is invalid.\n`color.main` should be a string, but `".concat(JSON.stringify(color.main), "` was provided instead.\n\nDid you intend to use one of the following approaches?\n\nimport {\xA0green } from \"@material-ui/core/colors\";\n\nconst theme1 = createMuiTheme({ palette: {\n  primary: green,\n} });\n\nconst theme2 = createMuiTheme({ palette: {\n  primary: { main: green[500] },\n} });") );
+        throw new Error( "Material-UI: The color provided to augmentColor(color) is invalid.\n`color.main` should be a string, but `".concat(JSON.stringify(color.main), "` was provided instead.\n\nDid you intend to use one of the following approaches?\n\nimport {\xA0green } from \"@wootstrap/core/colors\";\n\nconst theme1 = createMuiTheme({ palette: {\n  primary: green,\n} });\n\nconst theme2 = createMuiTheme({ palette: {\n  primary: { main: green[500] },\n} });") );
       }
 
       addLightOrDark(color, 'light', lightShade, tonalOffset);
@@ -8097,7 +8097,7 @@
     // warning(
     //   warnOnce,
     //   [
-    //     'Material-UI: createStyles from @material-ui/core/styles is deprecated.',
+    //     'Material-UI: createStyles from @wootstrap/core/styles is deprecated.',
     //     'Please use @material-ui/styles/createStyles',
     //   ].join('\n'),
     // );
@@ -18777,15 +18777,15 @@
   /**
    * ⚠️ The ExpansionPanel component was renamed to Accordion to use a more common naming convention.
    *
-   * You should use `import { Accordion } from '@material-ui/core'`
-   * or `import Accordion from '@material-ui/core/Accordion'`.
+   * You should use `import { Accordion } from '@wootstrap/core'`
+   * or `import Accordion from '@wootstrap/core/Accordion'`.
    */
 
   var ExpansionPanel = /*#__PURE__*/React.forwardRef(function ExpansionPanel(props, ref) {
     {
       if (!warnedOnce) {
         warnedOnce = true;
-        console.error(['Material-UI: the ExpansionPanel component was renamed to Accordion to use a more common naming convention.', '', "You should use `import { Accordion } from '@material-ui/core'`", "or `import Accordion from '@material-ui/core/Accordion'`"].join('\n'));
+        console.error(['Material-UI: the ExpansionPanel component was renamed to Accordion to use a more common naming convention.', '', "You should use `import { Accordion } from '@wootstrap/core'`", "or `import Accordion from '@wootstrap/core/Accordion'`"].join('\n'));
       }
     }
 
@@ -18948,15 +18948,15 @@
   /**
    * ⚠️ The ExpansionPanelActions component was renamed to AccordionActions to use a more common naming convention.
    *
-   * You should use `import { AccordionActions } from '@material-ui/core'`
-   * or `import AccordionActions from '@material-ui/core/AccordionActions'`.
+   * You should use `import { AccordionActions } from '@wootstrap/core'`
+   * or `import AccordionActions from '@wootstrap/core/AccordionActions'`.
    */
 
   var ExpansionPanelActions = /*#__PURE__*/React.forwardRef(function ExpansionPanelActions(props, ref) {
     {
       if (!warnedOnce$1) {
         warnedOnce$1 = true;
-        console.error(['Material-UI: the ExpansionPanelActions component was renamed to AccordionActions to use a more common naming convention.', '', "You should use `import { AccordionActions } from '@material-ui/core'`", "or `import AccordionActions from '@material-ui/core/AccordionActions'`"].join('\n'));
+        console.error(['Material-UI: the ExpansionPanelActions component was renamed to AccordionActions to use a more common naming convention.', '', "You should use `import { AccordionActions } from '@wootstrap/core'`", "or `import AccordionActions from '@wootstrap/core/AccordionActions'`"].join('\n'));
       }
     }
 
@@ -19015,15 +19015,15 @@
   /**
    * ⚠️ The ExpansionPanelDetails component was renamed to AccordionDetails to use a more common naming convention.
    *
-   * You should use `import { AccordionDetails } from '@material-ui/core'`
-   * or `import AccordionDetails from '@material-ui/core/AccordionDetails'`.
+   * You should use `import { AccordionDetails } from '@wootstrap/core'`
+   * or `import AccordionDetails from '@wootstrap/core/AccordionDetails'`.
    */
 
   var ExpansionPanelDetails = /*#__PURE__*/React.forwardRef(function ExpansionPanelDetails(props, ref) {
     {
       if (!warnedOnce$2) {
         warnedOnce$2 = true;
-        console.error(['Material-UI: the ExpansionPanelDetails component was renamed to AccordionDetails to use a more common naming convention.', '', "You should use `import { AccordionDetails } from '@material-ui/core'`", "or `import AccordionDetails from '@material-ui/core/AccordionActions'`"].join('\n'));
+        console.error(['Material-UI: the ExpansionPanelDetails component was renamed to AccordionDetails to use a more common naming convention.', '', "You should use `import { AccordionDetails } from '@wootstrap/core'`", "or `import AccordionDetails from '@wootstrap/core/AccordionActions'`"].join('\n'));
       }
     }
 
@@ -19127,15 +19127,15 @@
   /**
    * ⚠️ The ExpansionPanelSummary component was renamed to AccordionSummary to use a more common naming convention.
    *
-   * You should use `import { AccordionSummary } from '@material-ui/core'`
-   * or `import AccordionSummary from '@material-ui/core/AccordionSummary'`.
+   * You should use `import { AccordionSummary } from '@wootstrap/core'`
+   * or `import AccordionSummary from '@wootstrap/core/AccordionSummary'`.
    */
 
   var ExpansionPanelSummary = /*#__PURE__*/React.forwardRef(function ExpansionPanelSummary(props, ref) {
     {
       if (!warnedOnce$3) {
         warnedOnce$3 = true;
-        console.error(['Material-UI: the ExpansionPanelSummary component was renamed to AccordionSummary to use a more common naming convention.', '', "You should use `import { AccordionSummary } from '@material-ui/core'`", "or `import AccordionSummary from '@material-ui/core/AccordionSummary'`"].join('\n'));
+        console.error(['Material-UI: the ExpansionPanelSummary component was renamed to AccordionSummary to use a more common naming convention.', '', "You should use `import { AccordionSummary } from '@wootstrap/core'`", "or `import AccordionSummary from '@wootstrap/core/AccordionSummary'`"].join('\n'));
       }
     }
 
@@ -30709,7 +30709,7 @@
    * For example:
    * ```jsx
    * import React from 'react';
-   * import RootRef from '@material-ui/core/RootRef';
+   * import RootRef from '@wootstrap/core/RootRef';
    *
    * function MyComponent() {
    *   const domRef = React.useRef();

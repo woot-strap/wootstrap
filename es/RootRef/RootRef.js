@@ -18,7 +18,7 @@ import setRef from '../utils/setRef';
  * For example:
  * ```jsx
  * import React from 'react';
- * import RootRef from '@material-ui/core/RootRef';
+ * import RootRef from '@wootstrap/core/RootRef';
  *
  * function MyComponent() {
  *   const domRef = React.useRef();

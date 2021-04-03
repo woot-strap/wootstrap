@@ -19,7 +19,7 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _clsx = _interopRequireDefault(require("clsx"));
 
-var _styles = require("@material-ui/core/styles");
+var _styles = require("@wootstrap/core/styles");
 
 var _CssBaseline = require("../CssBaseline/CssBaseline");
 

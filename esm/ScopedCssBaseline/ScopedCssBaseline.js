@@ -3,7 +3,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@wootstrap/core/styles';
 import { html, body } from '../CssBaseline/CssBaseline';
 export var styles = function styles(theme) {
   return {

@@ -167,7 +167,7 @@ The color object needs to have a \`main\` property or a \`${mainShade}\` propert
 
 Did you intend to use one of the following approaches?
 
-import { green } from "@material-ui/core/colors";
+import { green } from "@wootstrap/core/colors";
 
 const theme1 = createMuiTheme({ palette: {
   primary: green,

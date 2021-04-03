@@ -95,15 +95,15 @@ var warnedOnce = false;
 /**
  * ⚠️ The ExpansionPanelSummary component was renamed to AccordionSummary to use a more common naming convention.
  *
- * You should use `import { AccordionSummary } from '@material-ui/core'`
- * or `import AccordionSummary from '@material-ui/core/AccordionSummary'`.
+ * You should use `import { AccordionSummary } from '@wootstrap/core'`
+ * or `import AccordionSummary from '@wootstrap/core/AccordionSummary'`.
  */
 
 var ExpansionPanelSummary = /*#__PURE__*/React.forwardRef(function ExpansionPanelSummary(props, ref) {
   if (process.env.NODE_ENV !== 'production') {
     if (!warnedOnce) {
       warnedOnce = true;
-      console.error(['Material-UI: the ExpansionPanelSummary component was renamed to AccordionSummary to use a more common naming convention.', '', "You should use `import { AccordionSummary } from '@material-ui/core'`", "or `import AccordionSummary from '@material-ui/core/AccordionSummary'`"].join('\n'));
+      console.error(['Material-UI: the ExpansionPanelSummary component was renamed to AccordionSummary to use a more common naming convention.', '', "You should use `import { AccordionSummary } from '@wootstrap/core'`", "or `import AccordionSummary from '@wootstrap/core/AccordionSummary'`"].join('\n'));
     }
   }
 

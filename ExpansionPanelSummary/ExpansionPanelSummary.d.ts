@@ -28,8 +28,8 @@ export type ExpansionPanelSummaryTypeMap<
 /**
  * ⚠️ The ExpansionPanelSummary component was renamed to AccordionSummary to use a more common naming convention.
  *
- * You should use `import { AccordionSummary } from '@material-ui/core'`
- * or `import AccordionSummary from '@material-ui/core/AccordionSummary'`.
+ * You should use `import { AccordionSummary } from '@wootstrap/core'`
+ * or `import AccordionSummary from '@wootstrap/core/AccordionSummary'`.
  * API:
  *
  * - [ExpansionPanelSummary API](https://material-ui.com/api/expansion-panel-summary/)

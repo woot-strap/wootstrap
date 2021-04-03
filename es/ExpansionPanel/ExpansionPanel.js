@@ -86,15 +86,15 @@ let warnedOnce = false;
 /**
  * ⚠️ The ExpansionPanel component was renamed to Accordion to use a more common naming convention.
  *
- * You should use `import { Accordion } from '@material-ui/core'`
- * or `import Accordion from '@material-ui/core/Accordion'`.
+ * You should use `import { Accordion } from '@wootstrap/core'`
+ * or `import Accordion from '@wootstrap/core/Accordion'`.
  */
 
 const ExpansionPanel = /*#__PURE__*/React.forwardRef(function ExpansionPanel(props, ref) {
   if (process.env.NODE_ENV !== 'production') {
     if (!warnedOnce) {
       warnedOnce = true;
-      console.error(['Material-UI: the ExpansionPanel component was renamed to Accordion to use a more common naming convention.', '', "You should use `import { Accordion } from '@material-ui/core'`", "or `import Accordion from '@material-ui/core/Accordion'`"].join('\n'));
+      console.error(['Material-UI: the ExpansionPanel component was renamed to Accordion to use a more common naming convention.', '', "You should use `import { Accordion } from '@wootstrap/core'`", "or `import Accordion from '@wootstrap/core/Accordion'`"].join('\n'));
     }
   }
 
