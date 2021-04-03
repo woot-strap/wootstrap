@@ -1,23 +1,61 @@
 {
-  "name": "@wootstrap/base",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Adam Szaruga"
+  },
+  "bugs": {
+    "url": "https://github.com/woot-strap/wootstrap/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@babel/runtime": "^7.4.4",
+    "@material-ui/styles": "^4.11.3",
+    "@material-ui/system": "^4.11.3",
+    "@material-ui/types": "^5.1.0",
+    "@material-ui/utils": "^4.11.2",
+    "@types/react-transition-group": "^4.2.0",
+    "clsx": "^1.0.4",
+    "hoist-non-react-statics": "^3.3.2",
+    "popper.js": "1.16.1-lts",
+    "prop-types": "^15.7.2",
+    "react-is": "^16.8.0 || ^17.0.0",
+    "react-transition-group": "^4.4.0"
+  },
+  "deprecated": false,
+  "description": "React components that implement Google's Material Design, with some Wootstrap flavor.",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/woot-strap/wootstrap#readme",
+  "keywords": [
+    "react",
+    "react-component",
+    "wootstrap",
+    "material design",
+    "material-ui"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "module": "./esm/index.js",
+  "name": "@wootstrap/core",
+  "peerDependencies": {
+    "@types/react": "^16.8.6 || ^17.0.0",
+    "react": "^16.8.0 || ^17.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/woot-strap/wootstrap.git"
   },
-  "author": "Adam Szaruga",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/woot-strap/wootstrap/issues"
-  },
-  "homepage": "https://github.com/woot-strap/wootstrap#readme",
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+  "sideEffects": false,
+  "typings": "./index.d.ts",
+  "version": "0.0.1"
 }
