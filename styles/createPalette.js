@@ -120,9 +120,9 @@ function addLightOrDark(intent, direction, shade, tonalOffset) {
 function createPalette(palette) {
   var _palette$primary = palette.primary,
       primary = _palette$primary === void 0 ? {
-    light: _indigo.default[300],
-    main: _indigo.default[500],
-    dark: _indigo.default[700]
+    light: _green.default[300],
+    main: _green.default[500],
+    dark: _green.default[700]
   } : _palette$primary,
       _palette$secondary = palette.secondary,
       secondary = _palette$secondary === void 0 ? {
