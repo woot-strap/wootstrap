@@ -12,8 +12,10 @@ import transitions from './transitions';
 import zIndex from './zIndex';
 
 function createMuiTheme() {
-  var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
+  var optionsMUIMagic = {};
+  var optionsMaterialUI = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var options = Object.assign({}, optionsMUIMagic, optionsMaterialUI);
+  
   var _options$breakpoints = options.breakpoints,
       breakpointsInput = _options$breakpoints === void 0 ? {} : _options$breakpoints,
       _options$mixins = options.mixins,

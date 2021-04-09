@@ -10,7 +10,9 @@ import createSpacing from './createSpacing';
 import transitions from './transitions';
 import zIndex from './zIndex';
 
-function createMuiTheme(options = {}, ...args) {
+function createMuiTheme(optionsMaterialUI = {}, ...args) {
+  var optionsMUIMagic = {};
+  var options = Object.assign({}, optionsMUIMagic, optionsMaterialUI);
   const {
     breakpoints: breakpointsInput = {},
     mixins: mixinsInput = {},
